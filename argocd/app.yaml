@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/your-username/cd-repo.git'
+    repoURL: 'https://github.com/matanA1305/cd-repo.git'
     targetRevision: HEAD
     path: manifests
   destination:
