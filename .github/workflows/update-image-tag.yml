@@ -1,12 +1,9 @@
 name: Update FastAPI Image Tag
 
 on:
-  workflow_dispatch:
-    inputs:
-      image_tag:
-        description: 'Docker image tag'
-        required: true
-        default: 'latest'
+  repository_dispatch:
+    types: [update-image-tag]
+
 
 permissions:
   contents: write
